@@ -1,6 +1,16 @@
 html {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
 }
 h1 {
     font-family: 'Alex Brush', cursive;
+}
+h2 {
+    font-weight: 700;
+}
+p {
+    font-weight: 300;
+}
+.video p {
+    font-weight: 500;
 }
