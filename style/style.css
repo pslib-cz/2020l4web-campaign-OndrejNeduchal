@@ -1,4 +1,4 @@
-.video h1, .video p, .video H2 {
+.head h1, .head p, .head H2 {
     text-align: center;
     margin: 16px 10px;
 }
@@ -7,19 +7,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: url(../images/IMG_7905.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
-.wrapper {
-    position: relative;
-    overflow: hidden;
-    padding-top: 177.7%;
-    height: 1vh;
-}
-.wrapper iframe {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+.photo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .photo figure {
     width: 100%;
@@ -53,4 +50,7 @@ opacity: 90%;
 }
 footer p {
     text-align: center;
+}
+@media only screen and (min-width: 922px) {
+
 }
