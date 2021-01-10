@@ -1,4 +1,4 @@
-.head h1, .head p, .head H2 {
+.head h1, .head p, .head h2 {
     text-align: center;
     margin: 16px 10px;
 }
@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(../images/IMG_7905.jpg);
+    background: url(../images/IMG_7814.jpg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -19,12 +19,13 @@
     justify-content: center;
 }
 .photo figure {
-    width: 100%;
+    width: 90%;
     padding: 1em 0 0 0;
     margin: 0 auto;
 }
 .photo img {
     width: 100%;
+    border-radius: 0.6em;
 }
 .photo h2 {
     text-align: center;
@@ -52,5 +53,14 @@ footer p {
     text-align: center;
 }
 @media only screen and (min-width: 922px) {
-
+    .photo {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .head {
+        padding: 0 20%;
+    }
 }
