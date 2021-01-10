@@ -5,5 +5,5 @@
 ## Description
 * This website was created as part of a school project
 * It should be the landingpage of Onne Sole, which is made up imaginery product.
-* Whole project should teach students something about marketing side of webwritig and about using SEO in practise
+* Whole project should learn students something about marketing side of webwritig and about using SEO in practise
 
