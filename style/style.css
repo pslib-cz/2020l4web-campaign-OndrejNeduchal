@@ -1,6 +1,25 @@
-.video h1, .video p {
+.video h1, .video p, .video H2 {
     text-align: center;
-    margin: 16px 0;
+    margin: 16px 10px;
+}
+.head {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 177.7%;
+    height: 1vh;
+}
+.wrapper iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 .photo figure {
     width: 100%;
@@ -22,7 +41,7 @@
 .button {
     display: block;
     width: fit-content;
-    margin: 0 auto;
+    margin: 14px auto;
     border-radius: 0.6em;
     background-color: #FF3829;
     padding: 0.3em 0.6em;
